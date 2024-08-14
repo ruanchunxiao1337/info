@@ -1,0 +1,90 @@
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.heading{
+    background-repeat: no-repeat;
+    background-color: black;
+    width: 100vw;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid none;
+    padding: 10px;
+    background-color: black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.controller{
+    display: flex;
+}
+
+.controller a{
+    margin: auto;
+    text-decoration: none;
+    color: white;
+}
+
+.invisible{
+    visibility: hidden;
+}
+
+.wallpaper{
+    width: 100vw;
+}
+
+.wallpaper img{
+    display: block;
+    width: 100vw;
+    margin: auto;
+}
+
+.content{
+    background-color: black;
+}
+
+hr{
+    width: 10%;
+    color: red;
+    border: 6px dotted white;
+    border-top: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.aboutme{
+    display: flex;
+    width: 100vw;
+}
+
+.aboutme .avt{
+    width: 50vw;
+}
+
+.aboutme .avt img{
+    padding-top: 50px;
+    width: 40%;
+    padding-left: 45%;
+}
+
+.aboutme .info{
+    width: 50vw;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+}
+
+.aboutme ul li{
+    margin-bottom: 2vh;
+}
+
+a{
+    color: white;
+}
